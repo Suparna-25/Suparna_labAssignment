@@ -1,3 +1,7 @@
+/**
+ * Desc: This class holds all the  details of a person
+ * @ author-Suparna Arya
+ */
 package Lab4;
 
 public class Person {

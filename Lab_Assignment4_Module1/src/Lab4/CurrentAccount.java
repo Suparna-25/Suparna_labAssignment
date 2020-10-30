@@ -1,3 +1,7 @@
+/**
+ * Desc: This class holds all operations related to a person's current bank account
+ * @ author-Suparna Arya
+ */
 package Lab4;
 
 public class CurrentAccount extends Account {
@@ -6,6 +10,9 @@ public class CurrentAccount extends Account {
 		// TODO Auto-generated constructor stub
 	}
 
+	/*
+	 * This methods overrides withdraw operation of account 
+	 */
 	void withdraw(double amount) {
 		final double overdraftLimit = 800;
 		if (amount >= overdraftLimit) {

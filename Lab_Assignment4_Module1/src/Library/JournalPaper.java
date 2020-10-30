@@ -1,3 +1,7 @@
+/* 
+ * This class describes all the details of a Journal Paper present in library
+ * @author:Suparna Arya
+ */
 package Library;
 
 public class JournalPaper extends WrittenItem {

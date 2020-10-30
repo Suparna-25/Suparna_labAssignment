@@ -1,3 +1,7 @@
+/* 
+ * This class sets the insurance policy of an employee based on his/her salary and designation.
+ * @author:Suparna Arya
+ */
 package com.cg.eis.service;
 
 import com.cg.eis.bean.*;

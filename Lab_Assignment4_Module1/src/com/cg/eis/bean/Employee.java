@@ -1,3 +1,7 @@
+/*
+ * This class hold all the details of an Employee
+ * @author:Suparna Arya
+ */
 package com.cg.eis.bean;
 
 public class Employee {

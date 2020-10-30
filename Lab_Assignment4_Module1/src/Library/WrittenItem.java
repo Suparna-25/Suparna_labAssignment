@@ -1,4 +1,7 @@
-package Library;
+/* 
+ * This class describes all the details of a written item present in library
+ * @author:Suparna Arya
+ */package Library;
 
 abstract class WrittenItem extends Item {
     protected String authorName;

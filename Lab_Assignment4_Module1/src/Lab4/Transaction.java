@@ -1,3 +1,7 @@
+/**
+ * Desc: This class holds all the  transaction details
+ * @ author-Suparna Arya
+ */
 package Lab4;
 
 import java.util.Random;

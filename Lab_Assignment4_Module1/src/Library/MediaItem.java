@@ -1,3 +1,7 @@
+/* 
+ * This class describes all the details of a media item present in library
+ * @author:Suparna Arya
+ */
 package Library;
 
 abstract public class MediaItem extends Item {

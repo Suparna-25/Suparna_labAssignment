@@ -1,3 +1,7 @@
+/* 
+ * This class describes all the display all the details of the item present in the library
+ * @author:Suparna Arya
+ */
 package Library;
 
 public class Source

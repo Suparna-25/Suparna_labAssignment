@@ -1,3 +1,7 @@
+/* 
+ * This class describes all the details of a video present in library
+ * @author:Suparna Arya
+ */
 package Library;
 
 public class Video extends MediaItem {

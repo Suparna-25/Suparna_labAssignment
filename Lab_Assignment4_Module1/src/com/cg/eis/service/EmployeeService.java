@@ -1,3 +1,7 @@
+/*
+ * This interface holds all the service operations
+ * @author: Suparna Arya 
+ */
 package com.cg.eis.service;
 import com.cg.eis.bean.*;
 

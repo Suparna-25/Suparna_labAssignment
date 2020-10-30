@@ -1,3 +1,7 @@
+/* 
+ * This class describes all the details of a item present in library
+ * @author:Suparna Arya
+ */
 package Library;
 abstract class Item {
     protected int id;
