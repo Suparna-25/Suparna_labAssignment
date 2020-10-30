@@ -3,13 +3,19 @@
  * @author:Suparna Arya
  */
 package com.cg.eis.service;
-
+/*
+ *  import Employee class to provide services
+ */
 import com.cg.eis.bean.*;
 import java.util.Scanner;
 
 public class Services implements EmployeeService {
 
 	@Override
+	/*
+	 * This method takes all the details of an employee as an input
+	 * @return emp:Employee object
+	 */
 	public Employee getEmployeeDetails() {
 		// TODO Auto-generated method stub
 		Scanner sc = new Scanner(System.in);
@@ -23,10 +29,15 @@ public class Services implements EmployeeService {
 		System.out.println("Enter the employee designation");
 		String designation = sc.nextLine();
 		Employee emp = new Employee(id, name, salary, designation);
+		sc.close();
 		return emp;
 	}
 
 	@Override
+	/*
+	 * This method set insurance scheme for employees depending on their salay and designation
+	 * @param emp:Employee object as input
+	 */
 	public void findInsuranceScheme(Employee emp) {
 		// TODO Auto-generated method stub
 		if ((emp.getSalary()>=20000 && emp.getSalary()<30000) || (emp.getDesignation().equalsIgnoreCase("Analyst"))) {
@@ -39,6 +50,10 @@ public class Services implements EmployeeService {
 	}
 
 	@Override
+	/*
+	 * This method display all the details of an employee
+	 * @param emp:Employee object as input
+	 */
 	public void display(Employee emp) {
 		// TODO Auto-generated method stub
 		System.out.println("Employee's id: " + emp.getId());

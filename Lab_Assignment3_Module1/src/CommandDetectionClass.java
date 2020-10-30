@@ -11,21 +11,28 @@ public class CommandDetectionClass {
 		String url=sc.nextLine();
 		String command=getCommand(url);
 		System.out.println("Command inside the url is:"+command);
+		sc.close();
 	}
 
 	private static String getCommand(String url) {
-		// TODO Auto-generated method stub
-		String[] characters=url.split("/");	//splits string url based on "/"
+		/*
+		 * splits string url based on "/"
+		 * @param url:takes provided url as input
+		 * @return command: returns first element of string array split on the basis of ".
+		 */
+		String[] characters=url.split("/");	
 		String command=null;
 		for(int i=0;i<characters.length;i++)
-		{
-			if(characters[i].contains(".")) //checks whether character array element contains "."
+		{	
+			if(characters[i].contains(".")) 
 			{
-        		
+				/*
+				 * checks whether character array element contains "."
+				 */
 				String com=characters[i];
-				String[] commands=com.split("\\."); //splits the character element containing "." based on "."
+				String[] commands=com.split("\\.");
 				 command=commands[0];
-				 return command; //returns the first element of commands
+				 return command;
 				
 			}
 		}

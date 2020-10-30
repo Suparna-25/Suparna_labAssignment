@@ -4,12 +4,28 @@
  */
 package Library;
 abstract class Item {
+	/*
+	 * It describes unique id of the item
+	 */
     protected int id;
+    /*
+	 * It describes the title of the item
+	 */
     protected String title;
+    /*
+   	 * It describes the no of copies of the item
+   	 */
     protected int copies;
-
+    
+    /*
+     *This abstract print method need to be override by its child class and print values of the class attributes
+     */
     abstract String print();
-
+    
+    /*
+     * This constructor initialize all the attributes of item and it's parent class 
+     */
+    
     public Item(int id, String title, int copies) {
         super();
         this.id=id;
@@ -17,11 +33,16 @@ abstract class Item {
         this.copies=copies;
 
     }
-
+    /*
+     * This constructor initialize all the attributes of it's parent class with default value
+     */
+    
     public Item() {
         super();
     }
-
+    /*
+     * All the setters and getters of item class is described below
+     */
     public int getId() {
         return id;
     }
@@ -47,17 +68,27 @@ abstract class Item {
     }
 
     @Override
+    /*
+     * This method overrides the toString method
+     */
     public String toString() {
         return "Item [id=" + id + ", title=" + title + ", copies=" + copies + "]";
     }
 
     @Override
+    /*
+     * This method overrides the hashCode method
+     */
     public int hashCode() {
             int hashValue=this.hashCode();
         return hashValue;
     }
 
     @Override
+    /*
+     * This method overrides the equals method
+     * @param obj:object of the class Object
+     */
     public boolean equals(Object obj) {
         if(obj==this)
             return true;

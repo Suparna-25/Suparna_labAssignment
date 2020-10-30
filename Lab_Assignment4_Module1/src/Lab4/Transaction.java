@@ -11,6 +11,10 @@ public class Transaction {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Random rand=new Random();
+		/* 
+		 * This Random class provides rand() method that generates auto generated account
+		 *  number
+		 */
 		long accNum=rand.nextLong();
 		long acNum=rand.nextLong();
 		

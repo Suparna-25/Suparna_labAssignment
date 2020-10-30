@@ -17,7 +17,11 @@ public class DifferenceSumSquareAssignment {
 		System.out.println("Sum of difference of the squares and square of the sum is"+Sum);
 
 	}
-
+/**
+ * Calculates difference of sum of squares of n number and square of sum of first n numbers
+ * @param n
+ * @return Sum
+ */
 	private static int calculateDifference(int n) {
 		// TODO Auto-generated method stub
 		int sumSq=0,sum=0;

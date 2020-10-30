@@ -6,14 +6,18 @@ package Library;
 
 public class JournalPaper extends WrittenItem {
     protected int yearPublished;
-
+    /*
+     * This constructor initialize all the attributes of Journal class and it's parent class 
+     */
     public JournalPaper(int id, String title, int copies, String authorName, String publicationName, int noOfPages,
                         int yearPublished) {
                             super(id,title,copies,authorName,publicationName,noOfPages);
                             this.yearPublished=yearPublished;
         
     }
-
+    /*
+     * This method overrides Written item's print() method
+     */
     @Override
     String print() {
         return ("JournalPaper [yearPublished=" + yearPublished + ", authorName=" + authorName
@@ -21,7 +25,9 @@ public class JournalPaper extends WrittenItem {
                 + title + ", copies=" + copies + "]");
 
     }
-
+    /*
+     * All the setters and getters are described below
+     */
     public int getYearPublished() {
         return yearPublished;
 

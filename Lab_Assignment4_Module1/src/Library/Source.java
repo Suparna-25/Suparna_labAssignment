@@ -8,6 +8,9 @@ public class Source
 {
 
     public static void main(String[] args) {
+    /* 
+     * Objects of the CD,Video and Journal class is created and their print method is called
+     */
      JournalPaper j=new JournalPaper(123,"abc",5,"cde","xyz",23,2015);
      System.out.println("Journal "+j.print());
      CD c=new CD(231,"ABC",3,2013,"action","CDE");
