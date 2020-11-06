@@ -27,7 +27,7 @@ public class MedalEligibiltyMap {
 			marksMap.put(id, marks);
 		}
 		Map<Integer, String> medalMap = new HashMap<Integer, String>();
-		// It calls the getStudent() method.
+		// It calls the getStudent() method-to get the eligible student for scholarship.
 		medalMap = getStudent(marksMap);
 		// The output Hash map should contain the student registration number as key and
 		// the medal type as value.

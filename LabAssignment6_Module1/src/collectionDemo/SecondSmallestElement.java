@@ -25,7 +25,7 @@ public class SecondSmallestElement {
 		for (int i = 0; i < size; i++) {
 			num[i] = sc.nextInt();
 		}
-		// It calls the secondSmallest() method
+		// It calls the secondSmallest() method-to return the second smallest element from the list.
 		int secondSmallest = getSecondSmallest(num);
 		System.out.println("Second smallest element in the array " + secondSmallest);
 		sc.close();

@@ -29,7 +29,7 @@ public class SortedArray {
 		for (int i = 0; i < size; i++) {
 			System.out.println("Given array " + array[i]);
 		}
-		// It calls the getSorted() method
+		// It calls the getSorted() method-to return the sorted array as an output.
 		int sortedArray[] = getSorted(array);
 		// It prints the sorted array
 		for (int i = 0; i < size; i++) {

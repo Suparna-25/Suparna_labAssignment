@@ -24,7 +24,7 @@ public class SquareMap {
 			num[i] = sc.nextInt();
 		}
 		Map<Integer, Integer> sqMap = new HashMap<>();
-		// It calls the getSquare() method.
+		// It calls the getSquare() method-to get a mapping of number with its squares.
 		sqMap = getSquare(num);
 		System.out.println("Square Map" + sqMap);
 		sc.close();

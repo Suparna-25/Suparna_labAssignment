@@ -36,6 +36,7 @@ public class HashMapInput {
 		// Prints the given map
 		System.out.println("MAP BEFORE SORTING" + map);
 		List<String> sortedList = new ArrayList<String>();
+		//It calls the sortedMap() method-to return the list of the sorted map values.
 		sortedList = sortedMap(map);
 		// Prints the sorted map
 		System.out.println("SORTED LIST" + sortedList);

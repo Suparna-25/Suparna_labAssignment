@@ -35,7 +35,7 @@ public class EligiblityToVote {
 
 		List<String> voter = new Vector<>();
 		System.out.println("People's List: " + people);
-		// It calls the voterList() method.
+		// It calls the voterList() method-to get the list of eligible voters.
 		voter = voterList(people);
 		System.out.println("Voter List: " + voter);
 		sc.close();

@@ -25,7 +25,7 @@ public class CountCharacter {
 		}
 
 		Map<Character, Integer> countedChar = new HashMap<>();
-		// It calls the countChars() method.
+		// It calls the countChars() method-to count the occurence of each character.
 		countedChar = countChars(ch);
 		System.out.println(countedChar);
 		sc.close();
