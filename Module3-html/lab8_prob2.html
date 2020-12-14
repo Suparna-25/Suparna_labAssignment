@@ -1,0 +1,81 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Employee Details</title>
+    </head>
+    <body>
+        <table border="1" style="background-color:lightcyan" align="center">
+            <tr>
+                <td>Name:</td>
+                <td style="padding-right:20px"><input type="text" width="10px"/></td>
+            </tr>
+            <tr>
+                <td>Password:</td>
+                <td style="padding-right:20px"><input type="password" width="10px" size="20"/></td>
+            </tr>
+             <tr>
+                <td>Phone Number:</td>
+                <td style="padding-right:20px"><input type="number" width="10px" size="20"/></td>
+            </tr>
+             <tr>
+                <td>Gender:</td>
+                 <td><input type="radio" name="gender" value="Male">Male
+                  <input type="radio" name="gender" value="Female">Female
+                   <input type="radio" name="gender" value="Others">Others
+                  </td>
+            </tr>
+             <tr>
+                <td>Date Of Birth:</td>
+                <td style="padding-right:20px"><input type="text" width="10px" value="dd/mm/yyyy"></td>
+            </tr>
+             <tr>
+                <td>Email:</td>
+                <td style="padding-right:20px"><input type="text" width="10px"/></td>
+            </tr>
+             <tr>
+                <td>Highest Qualification</td>
+                <td style="padding-right:20px">
+                    <select name="qualifiation">
+                       
+                                    <option value="B.Tech">B.Tech</option>
+                                    <option value="Senior Secondary" selected>Senior Secondary</option>
+                                    <option value="Secondary">Secondary/option>
+
+                    </select>
+                    </td>
+            </tr>
+            <tr>
+                <td  style="padding:20px">Training program need to attended</td>
+                 <td><input type="checkbox" name="Java"/>Java
+                     <input type="checkbox" name="HTML 5"/>HTML 5
+                 <input type="checkbox" name="CSS3"/>CSS3
+                 <input type="checkbox" name="Angular JS"/>Angular JS
+                 <input type="checkbox" name="JQuery"/>JQuery
+            </tr>
+            <tr>
+                <td>Training program need to attend</td>
+                <td><select>
+                    <option value="HTML/DHTML">HTML/DHTML</option>
+                    <option value="Client/Server">Client/Server</option>
+                    <option value="Java" selected>Java</option>
+                    <option value=".NET">.NET</option>
+                    </select></td>
+            </tr>
+             <tr>
+                <td>Comments:(Mention if any)</td>
+                <td><textarea cols="50" rows="3" name="address"></textarea></td>
+            </tr>
+            <tr>
+                <td>Upload Degree / Certificates:</td>
+                <td><button type="submit">Choose Files <</button> <span> No Files chooosen</span></td>
+            </tr>
+               <tr>
+                <td></td>
+                <td><button type="Submit information">Submit Information</button>
+                    <button type="Clear">Clear</button>
+                   </td>
+            </tr>
+        </table>
+        <p align="center">Candidate Details</p>
+    </body>
+</html>

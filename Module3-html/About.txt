@@ -1,0 +1,9 @@
+<!doctype html>
+<html>
+<head><meta charsetset="UTF-8">
+<title>This is the first html page</title>
+</head>
+<body>
+<h1> This my first page created </h1>
+</body>
+</html>
